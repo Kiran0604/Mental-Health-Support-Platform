@@ -16,13 +16,13 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with a secure key
 
 # Database configuration
+import os
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'Kiran@46',  # Replace with your actual password
-    'database': 'therapy'    # Database name updated
+    'host': os.environ.get('DB_HOST'),
+    'user': os.environ.get('DB_USER'),
+    'password': os.environ.get('DB_PASSWORD'),
+    'database': os.environ.get('DB_NAME')
 }
-
 # Database connection function
 def get_db_connection():
     return mysql.connector.connect(**db_config)
