@@ -68,6 +68,17 @@ This platform addresses critical mental health needs by providing:
 
 ---
 
+## ☁️ Azure Deployment
+
+This application is deployed on Microsoft Azure using the following services:
+* **Azure App Service**: Hosts the Flask web application. Deployment is automated via GitHub Actions, triggering on every push to the `main` branch.
+* **Azure Database for MySQL (Flexible Server)**: A managed database service that hosts the application's data.
+  
+The live application can be accessed at:
+[https://mentalhealth-platform-a6byenawd4dfgnah.southindia-01.azurewebsites.net/](https://mentalhealth-platform-a6byenawd4dfgnah.southindia-01.azurewebsites.net/)
+
+---
+
 ## �️ **Technology Stack**
 
 ### **Backend Architecture**
@@ -159,24 +170,10 @@ SMTP_CONFIG = {
 ---
 
 ## 🔮 **Future Roadmap**
-
-### **Version 2.0 Features**
-- [ ] **Mobile Applications**: iOS and Android native apps
-- [ ] **Telemedicine Integration**: Video calling capabilities
-- [ ] **Advanced Analytics**: Predictive mental health insights
-- [ ] **Group Therapy**: Multi-participant session support
-
-### **Version 3.0 Vision**
-- [ ] **AI-Powered Diagnostics**: Mental health assessment tools
-- [ ] **Wearable Integration**: Mood and stress monitoring
-- [ ] **Blockchain Security**: Enhanced data protection
-- [ ] **Virtual Reality Therapy**: Immersive treatment options
-
-### **Long-term Goals**
-- [ ] **Global Expansion**: Multi-region deployment
-- [ ] **Research Platform**: Clinical trial integration
-- [ ] **Insurance Integration**: Direct billing capabilities
-- [ ] **Community Features**: Peer support networks
+- [ ] **Enhanced Accessibility & Engagement**: Launch native iOS and Android applications, integrate real-time video for telemedicine sessions, and build out community features like group therapy and peer support networks.
+- [ ] **AI-Driven Personalization & Insights**: Leverage advanced AI for predictive analytics and diagnostic support, and integrate with wearable technology to provide proactive, data-driven insights for personalized care.
+- [ ] **Seamless Ecosystem Integration**: Develop direct billing through insurance provider integration, build a research platform for clinical partnerships, and execute a global expansion strategy.
+- [ ] **Next-Generation Therapeutic Modalities**: Pioneer immersive treatment options using Virtual Reality (VR) therapy and explore blockchain technology to enhance patient data security for future interventions.
 
 ---
 
