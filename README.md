@@ -63,8 +63,6 @@ This platform addresses critical mental health needs by providing:
 ### **🛡️ Enterprise-Grade Security**
 - **Data Encryption**: End-to-end encryption for sensitive information
 - **Role-Based Access**: Granular permissions and access controls
-- **Audit Logging**: Comprehensive activity tracking and compliance
-- **Privacy Compliance**: HIPAA and GDPR alignment
 
 ---
 
@@ -87,19 +85,6 @@ The live application can be accessed at:
 - **MySQL 8.0** - Robust relational database with ACID compliance
 - **SQLAlchemy** - Advanced ORM with connection pooling
 - **Werkzeug** - Secure password hashing and authentication
-
-6. **Initialize Database**
-```bash
-python database_setup.py  # Run database initialization script
-```
-
-7. **Launch Application**
-```bash
-python app.py
-# Access at http://localhost:5000
-```
-
----
 
 ## 🔧 **Configuration Guide**
 
@@ -128,44 +113,6 @@ SMTP_CONFIG = {
     'use_tls': True
 }
 ```
-
----
-
-## 🔒 **Security & Privacy**
-
-### **Data Protection**
-- **Encryption at Rest**: All sensitive data encrypted in database
-- **Encryption in Transit**: HTTPS/TLS for all communications
-- **Session Security**: Secure session management with timeouts
-- **Input Validation**: Comprehensive XSS and SQL injection prevention
-
-### **Privacy Compliance**
-- **HIPAA Alignment**: Health information protection standards
-- **GDPR Compliance**: European data protection regulations
-- **Data Minimization**: Only necessary data collection
-- **Right to Deletion**: User data removal capabilities
-
-### **Access Controls**
-- **Role-Based Access Control (RBAC)**: Granular permissions
-- **Multi-Factor Authentication**: Optional 2FA implementation
-- **Audit Logging**: Complete activity tracking
-- **Brute Force Protection**: Login attempt limitations
-
----
-
-## 📈 **Performance & Scalability**
-
-### **Current Metrics**
-- **Response Time**: <200ms average API response
-- **Concurrent Users**: Supports 1000+ simultaneous connections
-- **Database Performance**: Optimized queries with indexing
-- **Uptime**: 99.9% availability on Azure infrastructure
-
-### **Optimization Features**
-- **Database Connection Pooling**: Efficient resource management
-- **Caching Strategy**: Redis for session and query caching
-- **CDN Integration**: Azure CDN for static asset delivery
-- **Load Balancing**: Auto-scaling capabilities
 
 ---
 
